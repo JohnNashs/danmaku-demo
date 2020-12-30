@@ -36,7 +36,7 @@ module.exports = {
   output: {
     filename: '[name].[hash].js',
     path: path.resolve(__dirname, '../docs/assets'),
-    publicPath: '/danmaku-demo/assets/'
+    publicPath: '../assets/'
   },
 
   resolve: {
